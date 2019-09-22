@@ -10,7 +10,7 @@ myImage.onclick = function () {
     }
 }
 */
-
+prompt(document.URL);
 let myButton = document.querySelector('button.user');
 let myHeading = document.querySelector('span');
 
