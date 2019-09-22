@@ -14,7 +14,7 @@ prompt(document.URL);
 let myButton = document.querySelector('button.user');
 let myHeading = document.querySelector('span');
 
-if (document.URL == "file:///C:/Users/andre/Desktop/web-project/test-site/index.html") {
+if (document.URL == "https://vis-97.github.io/index.html") {
     function setUserName() {
         let myName = prompt('Please enter your name.');
         localStorage.setItem('name', myName);
@@ -49,11 +49,11 @@ let quttrofile = ""
 let cinquefile = ""
 
 function whereIam() {
-    if (begin == "file:///C:/Users/andre/Desktop/web-project/test-site/index.html") {
+    if (begin == "https://vis-97.github.io/index.html") {
         zerofile= "esterno1.html"
         onefile= "esterno2.html"
     }
-    if (begin == "file:///C:/Users/andre/Desktop/web-project/test-site/esterno1.html") {
+    if (begin == "https://vis-97.github.io/esterno1.html") {
         zerofile= "villa0.html"
         onefile= "cantina1.html"
     }
