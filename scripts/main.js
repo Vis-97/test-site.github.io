@@ -50,12 +50,12 @@ let cinquefile = ""
 
 function whereIam() {
     if (begin == "https://vis-97.github.io/index.html") {
-        zerofile= "esterno1.html"
-        onefile= "esterno2.html"
+        zerofile= "https://vis-97.github.io/esterno1.html"
+        onefile= "https://vis-97.github.io/esterno2.html"
     }
     if (begin == "https://vis-97.github.io/esterno1.html") {
-        zerofile= "villa0.html"
-        onefile= "cantina1.html"
+        zerofile= "https://vis-97.github.io/villa0.html"
+        onefile= "https://vis-97.github.io/cantina1.html"
     }
 }
 
