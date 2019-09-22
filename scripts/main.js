@@ -10,11 +10,11 @@ myImage.onclick = function () {
     }
 }
 */
-prompt(document.URL);
+
 let myButton = document.querySelector('button.user');
 let myHeading = document.querySelector('span');
 
-if (document.URL == "https://vis-97.github.io/index.html") {
+if (document.URL == "https://vis-97.github.io/") {
     function setUserName() {
         let myName = prompt('Please enter your name.');
         localStorage.setItem('name', myName);
@@ -49,7 +49,7 @@ let quttrofile = ""
 let cinquefile = ""
 
 function whereIam() {
-    if (begin == "https://vis-97.github.io/index.html") {
+    if (begin == "https://vis-97.github.io/") {
         zerofile= "https://vis-97.github.io/esterno1.html"
         onefile= "https://vis-97.github.io/esterno2.html"
     }
